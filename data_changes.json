@@ -151,5 +151,15 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-07-23T15:57:12.531922",
+    "comparison": {
+      "is_new_data": false,
+      "total_records": 1998,
+      "date_range": "2022-01-09 00:00:00 to 2026-07-12 00:00:00",
+      "brands": 9,
+      "changes": []
+    }
   }
 ]
