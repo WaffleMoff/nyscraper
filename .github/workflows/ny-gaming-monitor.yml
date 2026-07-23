@@ -2,6 +2,26 @@ name: NY Gaming Data Monitor
 
 on:
   workflow_dispatch:
+  schedule:
+    # NOTE: all times below are UTC, calculated for EDT (UTC-4).
+    # When DST ends in November, subtract 1 hour from each entry below
+    # to keep firing at the same NY local time (or leave as-is if an
+    # hour of drift is acceptable). Revert (+1 hour) when DST resumes in March.
+
+    # Every 2 hours, all day Thursday
+    - cron: '0 */2 * * 4'
+
+    # Every 15 min, Friday 4:00am-11:45am ET (8:00-15:45 UTC)
+    - cron: '*/15 8-15 * * 5'
+
+    # Friday 12:00pm ET exactly (16:00 UTC)
+    - cron: '0 16 * * 5'
+
+    # Hourly, Friday 1:00pm-7:00pm ET (17:00-23:00 UTC)
+    - cron: '0 17-23 * * 5'
+
+    # Hourly, Friday 8:00pm-11:00pm ET = Saturday 00:00-03:00 UTC
+    - cron: '0 0-3 * * 6'
 
 # Grant the workflow permission to push commits using GITHUB_TOKEN
 permissions:
