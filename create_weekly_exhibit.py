@@ -72,7 +72,7 @@ BRAND_DISPLAY = {
     'BetMGM':                   'BetMGM',
     'Caesars Sport Book':       'Caesars',
     'DraftKings Sport Book':    'DraftKings',
-    'ESPN Bet':                 'ESPN Bet',
+    'The Score':                 'The Score',
     'Wynn Interactive':         'Wynn',
     'FanDuel':                  'FanDuel',
     'Fanatics':                 'Fanatics',
