@@ -77,7 +77,7 @@ class NYGamingDataExtractorV2:
             'BetMGM_Weekly_Report': 'BetMGM',
             'Caesars_Sport_Book_Weekly_Report': 'Caesars Sport Book',
             'DraftKings_Sport_Book_Weekly_Report': 'DraftKings Sport Book',
-            'ESPN_Bet_Wynn_Interactive_Weekly_Report': 'ESPN Bet',
+            'ESPN_Bet_Wynn_Interactive_Weekly_Report': 'The Score',
             'Fanatics_Weekly_Report': 'Fanatics',
             'FanDuel_Weekly_Report': 'FanDuel',
             'Resorts_World_Bet_Weekly_Report': 'Resorts World Bet',
