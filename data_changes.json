@@ -1,15 +1,5 @@
 [
   {
-    "timestamp": "2026-09-03T08:00:44.144300",
-    "comparison": {
-      "is_new_data": false,
-      "total_records": 2046,
-      "date_range": "2022-01-09 00:00:00 to 2026-08-23 00:00:00",
-      "brands": 9,
-      "changes": []
-    }
-  },
-  {
     "timestamp": "2026-09-03T08:20:55.520225",
     "comparison": {
       "is_new_data": false,
@@ -1082,6 +1072,37 @@
           "change_percent": 42.73233576359711,
           "previous_ggr": 1911178.0,
           "current_ggr": 2727869.0
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-04T15:40:43.648426",
+    "comparison": {
+      "is_new_data": false,
+      "total_records": 2054,
+      "date_range": "2022-01-09 00:00:00 to 2026-08-30 00:00:00",
+      "brands": 9,
+      "changes": [
+        {
+          "type": "record_count",
+          "description": "Total records changed from 2052 to 2054",
+          "previous": 2052,
+          "current": 2054
+        },
+        {
+          "type": "new_weekly_data",
+          "description": "ESPN Bet: New weekly data available",
+          "brand": "ESPN Bet",
+          "new_date": "2026-08-30 00:00:00",
+          "previous_date": "2026-08-23 00:00:00"
+        },
+        {
+          "type": "new_weekly_data",
+          "description": "Rush Street Interactive: New weekly data available",
+          "brand": "Rush Street Interactive",
+          "new_date": "2026-08-30 00:00:00",
+          "previous_date": "2026-08-23 00:00:00"
         }
       ]
     }
