@@ -1,73 +1,5 @@
 [
   {
-    "timestamp": "2026-09-17T17:00:39.059251",
-    "comparison": {
-      "is_new_data": false,
-      "total_records": 2065,
-      "date_range": "2022-01-09 00:00:00 to 2026-09-13 00:00:00",
-      "brands": 9,
-      "changes": [
-        {
-          "type": "record_count",
-          "description": "Total records changed from 2062 to 2065",
-          "previous": 2062,
-          "current": 2065
-        },
-        {
-          "type": "date_range",
-          "description": "Date range changed from 2022-01-09 00:00:00 to 2026-09-06 00:00:00 to 2022-01-09 00:00:00 to 2026-09-13 00:00:00",
-          "previous": "(Timestamp('2022-01-09 00:00:00'), Timestamp('2026-09-06 00:00:00'))",
-          "current": "(Timestamp('2022-01-09 00:00:00'), Timestamp('2026-09-13 00:00:00'))"
-        },
-        {
-          "type": "new_weekly_data",
-          "description": "BetMGM: New weekly data available",
-          "brand": "BetMGM",
-          "new_date": "2026-09-13 00:00:00",
-          "previous_date": "2026-09-06 00:00:00"
-        },
-        {
-          "type": "significant_ggr_change",
-          "description": "BetMGM: GGR changed by -72.7% ($3,546,293 \u2192 $966,974)",
-          "brand": "BetMGM",
-          "change_percent": -72.73282269682736,
-          "previous_ggr": 3546293.0,
-          "current_ggr": 966974.0
-        },
-        {
-          "type": "new_weekly_data",
-          "description": "Bally Bet: New weekly data available",
-          "brand": "Bally Bet",
-          "new_date": "2026-09-13 00:00:00",
-          "previous_date": "2026-09-06 00:00:00"
-        },
-        {
-          "type": "significant_ggr_change",
-          "description": "Bally Bet: GGR changed by -71.1% ($359,475 \u2192 $104,029)",
-          "brand": "Bally Bet",
-          "change_percent": -71.06085263231101,
-          "previous_ggr": 359475.0,
-          "current_ggr": 104029.0
-        },
-        {
-          "type": "new_weekly_data",
-          "description": "FanDuel: New weekly data available",
-          "brand": "FanDuel",
-          "new_date": "2026-09-13 00:00:00",
-          "previous_date": "2026-09-06 00:00:00"
-        },
-        {
-          "type": "significant_ggr_change",
-          "description": "FanDuel: GGR changed by -50.6% ($16,892,923 \u2192 $8,347,252)",
-          "brand": "FanDuel",
-          "change_percent": -50.58728385845374,
-          "previous_ggr": 16892923.0,
-          "current_ggr": 8347252.089999981
-        }
-      ]
-    }
-  },
-  {
     "timestamp": "2026-09-17T17:20:38.007437",
     "comparison": {
       "is_new_data": false,
@@ -1131,6 +1063,16 @@
   },
   {
     "timestamp": "2026-09-18T23:41:19.099777",
+    "comparison": {
+      "is_new_data": false,
+      "total_records": 2070,
+      "date_range": "2022-01-09 00:00:00 to 2026-09-13 00:00:00",
+      "brands": 9,
+      "changes": []
+    }
+  },
+  {
+    "timestamp": "2026-09-19T00:00:45.499349",
     "comparison": {
       "is_new_data": false,
       "total_records": 2070,
