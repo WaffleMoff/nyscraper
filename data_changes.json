@@ -1,37 +1,5 @@
 [
   {
-    "timestamp": "2026-11-13T16:40:40.230569",
-    "comparison": {
-      "is_new_data": false,
-      "total_records": 2134,
-      "date_range": "2022-01-09 00:00:00 to 2026-11-08 00:00:00",
-      "brands": 9,
-      "changes": [
-        {
-          "type": "record_count",
-          "description": "Total records changed from 2133 to 2134",
-          "previous": 2133,
-          "current": 2134
-        },
-        {
-          "type": "new_weekly_data",
-          "description": "The Score: New weekly data available",
-          "brand": "The Score",
-          "new_date": "2026-11-08 00:00:00",
-          "previous_date": "2026-11-01 00:00:00"
-        },
-        {
-          "type": "significant_ggr_change",
-          "description": "The Score: GGR changed by 45.6% ($383,374 \u2192 $558,090)",
-          "brand": "The Score",
-          "change_percent": 45.57325222889398,
-          "previous_ggr": 383374.0,
-          "current_ggr": 558090.0
-        }
-      ]
-    }
-  },
-  {
     "timestamp": "2026-11-13T17:00:57.708069",
     "comparison": {
       "is_new_data": false,
@@ -1145,6 +1113,16 @@
   },
   {
     "timestamp": "2026-11-20T00:20:42.860131",
+    "comparison": {
+      "is_new_data": false,
+      "total_records": 2142,
+      "date_range": "2022-01-09 00:00:00 to 2026-11-15 00:00:00",
+      "brands": 9,
+      "changes": []
+    }
+  },
+  {
+    "timestamp": "2026-11-20T00:25:46.224955",
     "comparison": {
       "is_new_data": false,
       "total_records": 2142,
